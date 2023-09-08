@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffe5b4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#userName {
+  font-size: 4rem;
+}
+#container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#displayImg {
+  width: 150px;
+  height: 150px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  border-radius: 1rem;
+  background-color: #4169e1;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+a:hover {
+  background-color: #082375;
+}
