@@ -6,15 +6,19 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#userName {
-  font-size: 4rem;
-}
 #container {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#userName {
+  font-size: 4rem;
+}
+#displayImg {
+  border-radius: 1rem;
 }
 
 #displayImg {
